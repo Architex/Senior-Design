@@ -1,0 +1,29 @@
+/* file:		styles.css
+ */
+@navElements:	6;
+@navDivision:		100% / @navElements;
+
+@blockHeight: 251px;
+@blockText: 2em;
+
+ .btn-lg {
+ 	border: 0;
+ 	padding: 0;
+ 	width: 60%;
+ 	min-height: @blockHeight;
+ 	line-height: 1;
+ 	margin: .5em;
+ 	font-size: @blockText;
+ 	border-radius: 50px;
+ 	background: none;
+ }
+
+ .nav navbar-nav li{
+ 	width: @navDivision;
+ }
+
+.panel-footer{
+	position: absolute;
+	bottom: 0%;
+	width: 95%;
+}
